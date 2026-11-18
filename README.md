@@ -31,7 +31,7 @@ After the artifact is published, use this dependency:
 
 ```xml
 <dependency>
-    <groupId>com.thordata</groupId>
+    <groupId>io.github.thordata2026</groupId>
     <artifactId>thordata-java</artifactId>
     <version>0.1.0</version>
 </dependency>
