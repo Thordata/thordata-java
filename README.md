@@ -90,7 +90,7 @@ mvn -q test
 mvn -q -DskipTests package
 ```
 
-Tests use fake HTTP transports and contract fixtures; they do not consume Thordata credits. See `examples/` for runnable entry points.
+Tests use fake HTTP transports and contract fixtures; they do not consume Thordata credits. See `examples/` for runnable entry points. Maintainers can follow [RELEASING.md](RELEASING.md) to publish to Maven Central.
 
 ## Start Building
 
