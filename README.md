@@ -21,20 +21,18 @@ Create a Thordata account to get started:
 
 ## Install
 
-Version `0.1.0` is currently not published to Maven Central. Install it into your local Maven repository first:
-
-```text
-mvn install
-```
-
-After the artifact is published, use this dependency:
-
 ```xml
 <dependency>
     <groupId>io.github.thordata2026</groupId>
     <artifactId>thordata-java</artifactId>
     <version>0.1.0</version>
 </dependency>
+```
+
+Gradle:
+
+```groovy
+implementation 'io.github.thordata2026:thordata-java:0.1.0'
 ```
 
 Set `THORDATA_API_KEY`, `THORDATA_API_TOKEN`, or the compatible `TALORDATA_API_TOKEN` environment variable. Explicit `apiKey`, `apiToken`, or `token` builder values take precedence.
